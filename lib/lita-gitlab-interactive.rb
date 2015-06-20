@@ -6,7 +6,7 @@ Lita.load_locales Dir[File.expand_path(
 
 require "lita/handlers/gitlab_interactive"
 
-Lita::Handlers::GitlabInteractive.template_root File.expand_path(
-  File.join("..", "..", "templates"),
- __FILE__
-)
+# Lita::Handlers::GitlabInteractive.template_root File.expand_path(
+#  File.join("..", "..", "templates"),
+# __FILE__
+#)
