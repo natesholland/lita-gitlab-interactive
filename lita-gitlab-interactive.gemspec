@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-gitlab-interactive"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Nate Holland"]
   spec.email         = ["nateh@spiceworks.com"]
   spec.description   = "A way to interact with gitlab through lita."
