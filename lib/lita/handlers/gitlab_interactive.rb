@@ -23,7 +23,7 @@ module Lita
         'gl <namespace/project> #<issue number>' => 'looks up the issue for a names project'
       })
 
-      route(/(?:gl|issue)\\s+set\s+(.*\/.*)/i, :set_default_project, command: true, help: {
+      route(/(?:gl|issue)\s+set\s+(.*\/.*)/i, :set_default_project, command: true, help: {
         'gl set <namespace/project>' => 'Sets the default project for a room.'
       })
 
